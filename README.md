@@ -40,4 +40,4 @@ A Python tool for simulating future stock prices or currency exchange values usi
 
 And finally...
 
-- **I want to release a web-based tool using [Streamlit](https://streamlit.io/)** for an interactive, user-friendly experience—making the Monte Carlo simulator accessible to anyone without coding skills.
+- **Get to release a web-based tool using [Streamlit](https://streamlit.io/)** for an interactive, user-friendly experience—making the Monte Carlo simulator accessible to anyone without coding skills.
