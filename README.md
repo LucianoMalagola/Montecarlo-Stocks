@@ -14,7 +14,8 @@ A Python tool for simulating future stock prices or currency exchange values usi
 # Highlights
 - The tool calculates and displays key statistics:
   - Historic max, min, mean, standard deviation, last price of stock
-  - Daily mean return (μ), daily standard deviation (σ)
+  - Daily mean return (μ)
+  - Daily standard deviation (σ)
   - Estimated beta (β)
     - Calculated over the selected period, relative to the S&P 500.
 
