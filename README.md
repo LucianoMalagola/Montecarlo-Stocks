@@ -1,5 +1,5 @@
 # Montecarlo Stocks Price Simulator
-A Python tool for simulating future stock or currency prices using Monte Carlo methods, with data from Yahoo Finance.
+A Python tool for simulating future stock prices or currency exchange values using Monte Carlo methods, with data from Yahoo Finance.
 
 ## DISCLAIMER
 
