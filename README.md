@@ -13,30 +13,30 @@ A Python tool for simulating future stock prices or currency exchange values usi
 
 # Highlights
 - The tool calculates and displays key statistics:
-  - Historic max, min, mean, standard deviation, last price of stock
-  - Daily mean return (μ)
-  - Daily standard deviation (σ)
-  - Estimated beta (β)
+  - Historic max, min, mean, standard deviation, last price of stock.
+  - Daily mean return (μ).
+  - Daily standard deviation (σ).
+  - Estimated beta (β).
     - Calculated over the selected period, relative to the S&P 500.
 
 - Displays visualization of:
-  - Historical price chart
-  - Monte Carlo simulation fan chart
-  - Mean and median simulated price lines
-  - Prints 95% confidence intervals, mean, and median for each simulated day
+  - Historical price chart.
+  - Monte Carlo simulation fan chart.
+  - Mean and median simulated price lines.
+  - Prints 95% confidence intervals, mean, and median for each simulated day.
 
 ## Python Libraries Used
 - pandas for data manipulation.
 - numpy for numerical calculations.
 - matplotlib for plotting graphs.
 - yfinance to fetch stock data.
-- relativedelta to manipulate date ranges and consider leap years and holidays (for accurate analysis).
+- relativedelta to manipulate date ranges for more flexible time calculations (for accurate analysis).
 
 ## Goals and Improvements
-- Add more user controls for simulation parameters (e.g., custom forecast horizon, number of simulations)
-- Allow for additional statistical outputs and risk metrics
-- Improve error handling and support for more ticker formats
-- Enhance visualizations with interactive charts (e.g., Plotly)
+- Add more user controls for simulation parameters (e.g., custom forecast horizon, number of simulations).
+- Allow for additional statistical outputs and risk metrics.
+- Improve error handling and support for more ticker formats.
+- Enhance visualizations with interactive charts (e.g., Plotly).
 
 And finally...
 
