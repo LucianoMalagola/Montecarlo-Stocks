@@ -6,7 +6,7 @@ A Python tool for simulating future stock prices or currency exchange values usi
 **I am NOT a financial advisor. This project is for educational purposes only and should NOT be considered financial advice. Always do your own research before making investment decisions.**
 
 ## Functions
-- This tool downloads historical stock price data from Yahoo Finance based on user input for a specific company (e.g. TSLA) or currency exchange (e.g. USDEUR=X), even S&P 500 data (^GSPC).
+- This tool downloads historical stock price data from Yahoo Finance based on user input for a specific company (e.g. AAPL for Apple) or currency exchange (e.g. USDEUR=X for USD/EUR).
 - Analysis is evaluated over a selected range (in years or months).
 - The Monte Carlo simulation is used to predict future stock prices based on historical data.
 - The simulation results are visualized over a horizon of 7 days.
@@ -17,7 +17,7 @@ A Python tool for simulating future stock prices or currency exchange values usi
   - Daily mean return (μ).
   - Daily standard deviation (σ).
   - Estimated beta (β).
-    - Calculated over the selected period, relative to the S&P 500.
+    - Calculated over the selected period using linear regression, relative to the market (S&P 500).
 
 - Displays visualization of:
   - Historical price chart.
@@ -31,13 +31,9 @@ A Python tool for simulating future stock prices or currency exchange values usi
 - matplotlib for plotting graphs.
 - yfinance to fetch stock data.
 - relativedelta to manipulate date ranges for more flexible time calculations (for accurate analysis).
+- sklearn.linear_model to calculate the stock's beta (β) relative to the market using Linear Regression. 
 
 ## Goals and Improvements
 - Add more user controls for simulation parameters (e.g., custom forecast horizon, number of simulations).
 - Allow for additional statistical outputs and risk metrics.
-- Improve error handling and support for more ticker formats.
 - Enhance visualizations with interactive charts (e.g., Plotly).
-
-And finally...
-
-- **Get to release a web-based tool using [Streamlit](https://streamlit.io/)** for an interactive, user-friendly experience—making the Monte Carlo simulator accessible to anyone without coding skills.
