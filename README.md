@@ -3,7 +3,6 @@ A Python tool for simulating future stock prices or currency exchange values usi
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/LucianoMalagola/Montecarlo-Stocks/refs/heads/main/Montecarlo%20pictures/5M.png" width="59%" alt="5M">
-  <img src="https://raw.githubusercontent.com/LucianoMalagola/Montecarlo-Stocks/refs/heads/main/Montecarlo%20pictures/6M.png" width="59%" alt="6M">
 </p>
 
 ##### DISCLAIMER: **I am NOT a financial advisor. This project is for educational purposes only and should NOT be considered financial advice. Always do your own research before making investment decisions.**
